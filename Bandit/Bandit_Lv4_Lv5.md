@@ -64,7 +64,7 @@ Step 5: Copy the password and log in to the next level
 
 Use SSH again, replacing the username with the next level:
 
-ssh bandit4@bandit.labs.overthewire.org -p 2220
+ssh bandit5@bandit.labs.overthewire.org -p 2220
 
 When asked, paste the password you found.
 

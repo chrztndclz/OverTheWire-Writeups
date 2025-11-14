@@ -38,8 +38,7 @@ This repository is intended to serve as:
 
 ## Support This Project
 
-If you find this repository helpful, please consider  
-**starring it on GitHub** to support and share it with others.
+If you find this repository helpful, please consider **starring it on GitHub** to support and share it with others.
 
 Your support motivates continued updates and future additions!
 

@@ -73,7 +73,6 @@ When asked, paste the password you found.
 
 ## Password
 
-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 4oQ---------UQw
 
 ----

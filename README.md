@@ -1,6 +1,6 @@
 # OverTheWire Writeups
 
-Welcome to my [OverTheWire]() wargame writeups, created and maintained by (chrztndclz)[https://github.com/chrztndclz]. 
+Welcome to my [OverTheWire](https://overthewire.org/wargames/) wargame writeups, created and maintained by [chrztndclz](https://github.com/chrztndclz). 
 These writeups document my learning journey through various OTW wargames, offering clear explanations of each level’s logic and the techniques used to solve them.
 
 This repository will steadily grow to include detailed, level-by-level breakdowns across multiple OverTheWire games — all sensitive passwords and keys are redacted to encourage fair, reproducible learning.

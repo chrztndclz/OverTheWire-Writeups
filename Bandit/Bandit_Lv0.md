@@ -1,4 +1,4 @@
-# Level 0 
+## Level 0 
 
 Tags:
 
@@ -18,7 +18,7 @@ ssh
 
 ---
 
-# Tips
+## Tips
 
 Helpful Reading Material
 
@@ -43,7 +43,7 @@ This level ensures you understand the basic structure of an SSH command and prep
 
 ---
 
-# Methodology 
+## Methodology 
 
 Step 1: Use SSH to connect to the server
 Run the SSH command with the required port (-p 2220) and username:
@@ -66,6 +66,6 @@ Once logged in, you should see a welcome message from OverTheWire and gain acces
 
 ---
 
-# Reflection 
+## Reflection 
 
 This level reinforced the basics of connecting to a remote machine using SSH. Although simple, it introduces important concepts like specifying a username and connecting through a non-standard port. Understanding this early step is crucial since every subsequent Bandit level depends on accessing the next account through SSH. This initial login also builds confidence in navigating terminal-based authentication, which is a fundamental skill in cybersecurity and Linux environments.

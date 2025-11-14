@@ -41,27 +41,27 @@ The goal is to search through multiple nested directories inside inhere and iden
 Step 1: List files in the home directory
 Check what files are available:
 
-ls
+`ls`
 
 Step 2: Move to inhere directory 
 
-cd inhere
+`cd inhere`
 
 Step 3: Search for the file using find
 Use a single command that filters files by type, size, and permissions:
 
-find . -type f -size 1033c ! -executable
+`find . -type f -size 1033c ! -executable`
 
 Output: 
-./maybehere07/.file2
+`./maybehere07/.file2`
 
 Step 4: Move to maybehere07 directory
 
-cd maybehere07
+`cd maybehere07`
 
 Step 5: Read the human‑readable file
 
-cat ./.file2 
+`cat ./.file2`
 
 This reveals the password for the next level.
 

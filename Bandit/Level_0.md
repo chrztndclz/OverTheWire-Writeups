@@ -2,6 +2,8 @@
 
 Bandit is a beginner-friendly OverTheWire wargame designed to teach the essential skills needed before tackling more advanced security challenges. You start at Level 0, solve the task, and each completed level provides the information required to access the next one.
 
+---
+
 # How the Game Works
 
 - The game is divided into levels, starting at Level 0.
@@ -12,6 +14,8 @@ Bandit is a beginner-friendly OverTheWire wargame designed to teach the essentia
 - All level pages are listed in the website’s left sidebar.
 
 You will often encounter situations where you’re unsure what to do — this is normal and part of the learning process. Bandit is designed to help you learn by exploring, experimenting, and reading new information.
+
+---
 
 # Tips for Beginners
 
@@ -34,10 +38,14 @@ A search engine (Google recommended) can quickly clarify commands, errors, or un
 4. Ask the community:
 If you’re still stuck, you can join the OverTheWire chat for help.
 
+---
+
 # Getting Started
 
 You’re ready to begin — start with Level 0 using the link on the left side of the Bandit page.
 Good luck and have fun learning!
+
+---
 
 # VM Users — SSH Connection Note
 

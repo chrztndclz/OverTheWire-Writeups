@@ -19,8 +19,10 @@ Each writeup includes structured explanations of the analysis, methodology, tool
 However, to preserve the integrity of OverTheWire’s hands-on learning design, passwords and level keys are always redacted.
 
 Passwords appear in formats such as:
-<REDACTED>
+
 xxxx******yyyy
+
+This ensures that learners still practice solving each level themselves.
 
 ---
 

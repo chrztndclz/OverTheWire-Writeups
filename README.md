@@ -1,3 +1,5 @@
+<img width="579" height="278" alt="image" src="https://github.com/user-attachments/assets/8ad46d38-1f4a-4aa7-be77-e22e58f19c61" />
+
 # OverTheWire Writeups
 
 Welcome to my [OverTheWire](https://overthewire.org/wargames/) wargame writeups, created and maintained by [chrztndclz](https://github.com/chrztndclz). 

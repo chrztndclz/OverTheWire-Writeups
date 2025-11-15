@@ -52,16 +52,16 @@ You will typically find only a few open ports (e.g., 31518, 31790, 31691, etc.).
 
 Example:
 
-`openssl s_client -connect localhost:31790`
+`openssl s_client -connect localhost:31790 -ign_eof`
 
 If you see TLS handshake info, it's SSL/TLS.  
 If it errors out or hangs, it's plain text.
 
-<img width="1317" height="385" alt="image" src="https://github.com/user-attachments/assets/ee2f2b8d-294e-44e5-bd1b-b5779ad3c619" />
-
 
 <img width="780" height="349" alt="image" src="https://github.com/user-attachments/assets/93fc3a8a-23de-450c-b544-a0c5e1b660c9" />
 
+
+<img width="667" height="669" alt="image" src="https://github.com/user-attachments/assets/1820cb28-5e0d-4c30-a37b-96d289471433" />
 
 
 **Step 3:** **Send your Level 16 password to the SSL port**

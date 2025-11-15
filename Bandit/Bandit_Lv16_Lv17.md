@@ -61,8 +61,6 @@ If it errors out or hangs, it's plain text.
 <img width="780" height="349" alt="image" src="https://github.com/user-attachments/assets/93fc3a8a-23de-450c-b544-a0c5e1b660c9" />
 
 
-<img width="667" height="669" alt="image" src="https://github.com/user-attachments/assets/1820cb28-5e0d-4c30-a37b-96d289471433" />
-
 
 **Step 3:** **Send your Level 16 password to the SSL port**
 
@@ -71,6 +69,80 @@ The server will respond with the **private SSH key** for bandit17.
 
 Copy that key and save it as `bandit17.key` locally.
 
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+
+<img width="667" height="669" alt="image" src="https://github.com/user-attachments/assets/1820cb28-5e0d-4c30-a37b-96d289471433" />
+
+
+**Step 4: ** Copy the Private Key into a Local File
+
+On your local machine, create a file:
+
+nano bandit17.key
+
+Paste everything from:
+
+-----BEGIN RSA PRIVATE KEY-----
+...
+-----END RSA PRIVATE KEY-----
+
+Save and exit.
+
+
+<img width="656" height="685" alt="image" src="https://github.com/user-attachments/assets/61a8d3c6-8738-44b6-8a68-daa8535f8faf" />
+
+
+**Step 5:** Fix Permissions
+
+SSH will refuse to use a key that is world‑readable.
+
+Run this locally:
+
+chmod 600 bandit17.key
+
+
+<img width="647" height="65" alt="image" src="https://github.com/user-attachments/assets/e74800fd-2586-4794-b713-034c40a2e5a8" />
+
+
+**Step 6: ** Log In to Bandit Level 17
+
+Use the private key with ssh -i:
+
+ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
+
+
+<img width="692" height="574" alt="image" src="https://github.com/user-attachments/assets/f4ee6526-0d2a-4ee1-b403-0179bb2f6133" />
+
+After you log in to Bandit17 find the password for the bandit16 for easy access next time: 
+
+<img width="948" height="63" alt="image" src="https://github.com/user-attachments/assets/72dd7df7-bdf8-4eb1-95d4-68a131e91560" />
 
 
 **Step 4:** Copy the password and log in to the next level
@@ -81,10 +153,12 @@ ssh bandit17@bandit.labs.overthewire.org -p 2220
 
 When asked, paste the password you found.
 
+
 ---
 
 ## Password
 
+kSk---------0Dx
 
 ---
 

@@ -169,7 +169,7 @@ gunzip data8.gz
 <img width="590" height="127" alt="image" src="https://github.com/user-attachments/assets/2ce4c5d4-b68a-467f-8b72-a1045bdee24c" />
 
 
-Step 13: Ninth Decompress
+Step 14: Ninth Decompress
 file data8
 data8: ASCII text
 
@@ -177,7 +177,7 @@ It's already an ASCII text we can now use 'cat command' to retrieve the password
 
 cat data8
 
-Step 14: Copy the password and log in to the next level
+Step 15: Copy the password and log in to the next level
 
 Use SSH again, replacing the username with the next level:
 
@@ -189,8 +189,8 @@ When asked, paste the password you found.
 ---
 
 ## Password
-FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
+FO5---------wAn
 
 ---
 

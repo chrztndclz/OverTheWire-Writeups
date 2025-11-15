@@ -136,25 +136,12 @@ ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
 
 <img width="692" height="574" alt="image" src="https://github.com/user-attachments/assets/f4ee6526-0d2a-4ee1-b403-0179bb2f6133" />
 
-After you log in to Bandit17 find the password for the bandit16 for easy access next time: 
-
-<img width="948" height="63" alt="image" src="https://github.com/user-attachments/assets/72dd7df7-bdf8-4eb1-95d4-68a131e91560" />
-
-
-**Step 4:** Copy the password and log in to the next level
-
-Use SSH again, replacing the username with the next level:
-
-ssh bandit17@bandit.labs.overthewire.org -p 2220
-
-When asked, paste the password you found.
-
 
 ---
 
 ## Password
 
-kSk---------0Dx
+bandit17.key
 
 ---
 

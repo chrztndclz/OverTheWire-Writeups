@@ -58,10 +58,6 @@ If you see TLS handshake info, it's SSL/TLS.
 If it errors out or hangs, it's plain text.
 
 
-<img width="780" height="349" alt="image" src="https://github.com/user-attachments/assets/93fc3a8a-23de-450c-b544-a0c5e1b660c9" />
-
-
-
 **Step 3:** **Send your Level 16 password to the SSL port**
 
 Once connected using `openssl s_client`, paste your Level 16 password and press **Enter**.  
